@@ -191,18 +191,18 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, ["= 1.3.0"])
       s.add_runtime_dependency(%q<fastercsv>, ["~> 1.5.3"])
       s.add_runtime_dependency(%q<sinatra>, [">= 1.0"])
-      s.add_runtime_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_runtime_dependency(%q<json>, ["~> 1.8.0"])
     else
       s.add_dependency(%q<rspec>, ["= 1.3.0"])
       s.add_dependency(%q<fastercsv>, ["~> 1.5.3"])
       s.add_dependency(%q<sinatra>, [">= 1.0"])
-      s.add_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_dependency(%q<json>, ["~> 1.8.0"])
     end
   else
     s.add_dependency(%q<rspec>, ["= 1.3.0"])
     s.add_dependency(%q<fastercsv>, ["~> 1.5.3"])
     s.add_dependency(%q<sinatra>, [">= 1.0"])
-    s.add_dependency(%q<json>, ["~> 1.4.6"])
+    s.add_dependency(%q<json>, ["~> 1.8.0"])
   end
 end
 
