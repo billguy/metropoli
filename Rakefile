@@ -35,7 +35,7 @@ begin
     gem.add_development_dependency "rspec", "=1.3.0"
     gem.add_dependency("fastercsv", "~> 1.5.3")
     gem.add_dependency('sinatra', '>=1.0')
-    gem.add_dependency("json", "~> 1.4.6")
+    gem.add_dependency("json", "~> 1.8.0")
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
